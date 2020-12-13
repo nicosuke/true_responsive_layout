@@ -57,7 +57,7 @@ nav li {
     padding: 10px;
     margin-bottom: 5px;
     border: solid;  
-    background-color: white;
+    background-color: rgb(218, 210, 210);
 }
 
 #contact {
@@ -126,7 +126,7 @@ footer .container {
         width: 40%;
         float: right;
         margin-left: 20px;
-        padding: 0 0 50 0;
+        padding: 0 0 50px 0;
     }
     .card p {
         padding: 0 20px;
