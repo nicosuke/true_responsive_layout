@@ -40,7 +40,7 @@ header {
     margin-bottom: 30px;
 }
 header img {
-    width: 70%;
+    width: 80%;
     padding: 30px 0;
 }
 nav li {
@@ -69,3 +69,10 @@ footer {
     display: table;
     clear: both;
 }
+.carta {
+    margin-bottom: 40px
+}
+.carta img {
+    width: 100%;
+}
+
