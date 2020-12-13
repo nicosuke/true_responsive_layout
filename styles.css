@@ -48,6 +48,24 @@ nav li {
     color: wheat;
     padding: 10px;
     margin-bottom: 5px;
-    
+}
 
+#contact {
+    background-color: wheat;
+    padding: 30px 0;
+}
+#contact p {
+ margin:20px 0;
+}
+
+footer {
+    background-color: wheat;
+    font-weight: 700;
+    padding-top: 30px;
+}
+
+.clearFix::after {
+    content:"";
+    display: table;
+    clear: both;
 }
