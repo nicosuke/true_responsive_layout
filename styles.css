@@ -64,11 +64,7 @@ footer {
     padding-top: 30px;
 }
 
-.clearFix::after {
-    content:"";
-    display: table;
-    clear: both;
-}
+
 .carta {
     margin-bottom: 40px
 }
@@ -90,6 +86,11 @@ footer .container {
     border-top: solid 2px rgb(146, 136, 136);
     margin: 30px 20px;
     padding-top: 30px;
+}
+.clearFix::after {
+    content:"";
+    display: table;
+    clear: both;
 }
 
 @media (min-width: 768px) {
@@ -115,14 +116,12 @@ footer .container {
         margin-left: 20px;
         padding: 0 0 50 0;
     }
-    .card {
-        width: 48%;
-        margin-bottom: 50px
+   
     }
-    .card p {
+    .carta p {
         padding: 0 20px;
     }
-    backToTop {
+    .backToTop {
         display: none;
     }
     footer .container {
@@ -139,4 +138,15 @@ list-style: none;
 display: inline-block;
 margin: 10px;
     }
+
+    .flex {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1100px;
+        justify-content: space-around;
+    }
+    .carta {
+        width: 48%;
+        margin-bottom: 50px;
+    
 }
