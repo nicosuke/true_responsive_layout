@@ -76,3 +76,18 @@ footer {
     width: 100%;
 }
 
+.footerNav {
+    display: none;
+}
+
+.footerLeft {
+    float: left;
+}
+.footerRight {
+    float: right;
+}
+footer .container {
+    border-top: solid 2px rgb(146, 136, 136);
+    margin: 30px 20px;
+    padding-top: 30px;
+}
