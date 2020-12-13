@@ -5,8 +5,10 @@
 }
 
 .container {
- padding: 0;   
+ padding: 0;
+  
 }
+
 
 body {
     padding: 0;
@@ -35,9 +37,15 @@ a {
     text-decoration: none;
     color: grey;
 }
+a:hover {
+    color: gray;
+    margin-bottom: 2px;
+    border-bottom: 2px solid gray;
+}
 
 header {
     margin-bottom: 30px;
+    
 }
 header img {
     width: 80%;
@@ -48,6 +56,8 @@ nav li {
     color:  white;
     padding: 10px;
     margin-bottom: 5px;
+    border: solid;  
+    background-color: white;
 }
 
 #contact {
@@ -58,19 +68,20 @@ nav li {
  margin:20px 0;
 }
 
+
 footer {
     background-color: white;
     font-weight: 700;
     padding-top: 30px;
 }
-
-
-.carta {
-    margin-bottom: 40px
-}
-.carta img {
+.card img {
     width: 100%;
+}  
+
+.card {
+    margin: 0 0 60px 0;
 }
+ 
 
 .footerNav {
     display: none;
@@ -92,6 +103,7 @@ footer .container {
     display: table;
     clear: both;
 }
+
 
 @media (min-width: 768px) {
     .container {
@@ -116,9 +128,7 @@ footer .container {
         margin-left: 20px;
         padding: 0 0 50 0;
     }
-   
-    }
-    .carta p {
+    .card p {
         padding: 0 20px;
     }
     .backToTop {
@@ -145,10 +155,11 @@ margin: 10px;
         max-width: 1100px;
         justify-content: space-around;
     }
-    .carta {
+    .card {
         width: 48%;
         margin-bottom: 50px;
     
+}
 }
 
 @media (min-width: 1024px) {
@@ -166,7 +177,7 @@ margin: 10px;
     header img {
         width: 50%;
     }
-    .carta {
+    .card {
         width: 32%;
     }
 }
