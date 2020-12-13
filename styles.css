@@ -45,13 +45,13 @@ header img {
 }
 nav li {
     display: block;
-    color: wheat;
+    color:  white;
     padding: 10px;
     margin-bottom: 5px;
 }
 
 #contact {
-    background-color: wheat;
+    background-color:  white;
     padding: 30px 0;
 }
 #contact p {
@@ -59,7 +59,7 @@ nav li {
 }
 
 footer {
-    background-color: wheat;
+    background-color: white;
     font-weight: 700;
     padding-top: 30px;
 }
