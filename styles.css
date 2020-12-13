@@ -91,3 +91,52 @@ footer .container {
     margin: 30px 20px;
     padding-top: 30px;
 }
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+    nav ul {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    nav li{
+        display: inline;
+        margin: 0 10px;
+    }
+    header {
+        text-align: left;
+        margin-bottom:50px;
+    }
+    header img {
+        width: 40%;
+        float: right;
+        margin-left: 20px;
+        padding: 0 0 50 0;
+    }
+    .card {
+        width: 48%;
+        margin-bottom: 50px
+    }
+    .card p {
+        padding: 0 20px;
+    }
+    backToTop {
+        display: none;
+    }
+    footer .container {
+        width: 96%;
+        max-width: 1100px;
+        padding: 30px 0;
+        margin: 0 auto;
+    }
+    .footerNav {
+        display: block;
+    }
+    .footerNav li {
+list-style: none;
+display: inline-block;
+margin: 10px;
+    }
+}
