@@ -150,3 +150,23 @@ margin: 10px;
         margin-bottom: 50px;
     
 }
+
+@media (min-width: 1024px) {
+    h1 {
+        float: left;
+    }
+    nav {
+        float: right;
+        margin-top: 50px;
+    }
+    header {
+        max-width: 900px;
+        font-size: 25px;
+    }
+    header img {
+        width: 50%;
+    }
+    .carta {
+        width: 32%;
+    }
+}
